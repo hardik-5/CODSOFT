@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(ha.jpg);
+    max-width: 100%;
+    color: rgb(244, 244, 244);
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(178, 178, 239);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: brown;
+    font-size: 1.09rem;
+}
+
+main hr {
+    border: 0;
+    background: #dadaef;
+    height: 1.8px;
+    margin: 90px 84px;
+}
+
+.left {
+    font-size: 1.7rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.rightSection img {
+    width: 100%;
+}
+
+.green {
+    color: rgb(181, 181, 234);
+}
+
+#element {
+    color: rgb(170, 170, 234);
+}
+
+
+.flexed2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.desc{
+    width:400px;
+}
+.leftSection2 img {
+    width: 300px;
+    margin: 10px;
+}
+
+.rightSection2 img {
+    width: 300px;
+    margin: 10px;
+}
+.empty{
+    width:100%;
+    height:500px;
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+.big{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+.des{
+    font-size: 30px;
+    color: rgb(201, 201, 241);
+font-family: 'Poppins', sans-serif;
+}
+.j1{
+    position:absolute;
+    top:710px;
+    left:30px;
+    font-size: 25px;
+}
+.j2{
+    position:absolute;
+    top:740px;
+    left:30px;
+    font-size: 25px;
+}
+.j3{
+    position:absolute;
+    top:900px;
+    left:250px;
+    font-size: 25px;
+}
+.spc{
+    padding: 30px;
+}
+.psc{
+    position:absolute;
+    top:5px;
+    left:700px;
+    font-size: 25px;
+}
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+  }
+  .subfooter{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+
+}
+.subfooter-container{
+    justify-content: center;
+    gap:30px;
+}
+.pic{
+    position: absolute;
+    bottom: 180px;
+    left: 24%;
+}
+
